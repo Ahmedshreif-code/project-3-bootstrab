@@ -1,0 +1,745 @@
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <title>ahmed shreif abdelaty</title>
+  </head>
+  <body  class="bg-dark-subtle ">
+    <nav class="navbar navbar-expand-lg  fixed-top bg-dark  " >
+      <div class="container-fluid mx-2">
+        <img src="images/flag.png" alt="" class="img-fluid rounded-circle w-10 p-1" style="width: 60px; height: 60px; ">
+        <a class="navbar-brand text-success" href="#">Maldives</a>
+        <button class="navbar-toggler bg-success btn  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="text-light"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto ">
+            <li class="nav-item " >
+              <a class="nav-link  text-light btn mx-1 btn active btn-outline-success  " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn mx-1 btn-outline-success text-light" href="#">Resorts & Hotels </a>
+            </li>
+            <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link btn mx-1 btn-outline-success text-light" href="#">Travel Guide</a>
+              </li>
+              <a class="nav-link btn mx-1 btn-outline-success text-light" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle btn mx-1 btn-outline-success text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Activities
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class=" dropdown-item " href="#">Scuba Diving </a></li>
+                <li><a class="dropdown-item " href="#"> Snorkeling </a></li>
+                <li><a class=" dropdown-item " href="#"> Water Sports </a></li>
+                <li><a class=" dropdown-item " href="#">Sunset Cruises </a></li>
+                <li><a class=" dropdown-item " href="#">Island Hopping </a></li>
+                <li><a class=" dropdown-item " href="#">Fishing Trips </a></li>
+                <li><a class=" dropdown-item " href="#"> Luxury Spa & Wellness</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success  text-light mx-2" type="submit">Search</button>
+            <button class="btn btn-outline-success  text-light" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">login</button>
+          </form>
+      </div>
+    </nav>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content bg-success">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-light" id="exampleModalLabel">login</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <label for="inputPassword5 " class="form-label text-light">username</label>
+            <input type="email" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <div id="passwordHelpBlock" class="form-text">
+              we'll never share your emali with anyone else.
+            </div>
+            <label for="inputPassword5" class="form-label text-light">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<div id="passwordHelpBlock" class="form-text">
+  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+</div>
+<div class="form-check form-switch mx-auto">
+  <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+  <label class="form-check-label text-light" for="flexSwitchCheckChecked">remember me</label>
+</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn  btn-dark ">login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--////////////////////////////////////////////// nav baaaaaaaaaaar//////////////////////////////////////////////////// -->
+ <div class="position-fixed top-50 end-0  p-2 rounded-start bg-success d-none d-lg-block">
+<a href="" class="btn d-block fs-2 m-1  text-light"><i class="fa-brands fa-facebook"></i></a>
+<a href=""class="btn d-block fs-2 text-light"><i class="fa-brands fa-instagram"></i></a>
+<a href=""class="btn d-block fs-2 text-light"><i class="fa-brands fa-whatsapp"></i></a>
+<a href=""class="btn d-block fs-2 text-light"><i class="fa-brands fa-linkedin"></i></a>
+<a href=""class="btn d-block fs-2 text-light"><i class="fa-brands fa-twitter"></i></a>
+</div> 
+    <!-- ///////////////////////////////////////////////////   fixed div in right   ////////////////////////////////////////////////////////////////////// -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner " >
+        <div class="carousel-item active  "data-bs-interval="3000">
+          <img src="images/first p.jpg" class="d-block w-100 " alt="" style="height: 100vh;">
+          <div class="carousel-caption  d-md-block w-50 m-auto  bg-dark bg-opacity-75 rounded-3 " >
+            <h5>Explore the Paradise of the Maldives 🌴✨</h5>
+            <p>Discover the breathtaking beauty of the Maldives, a tropical paradise with crystal-clear waters, stunning overwater villas, and mesmerizing sunsets. </p>
+            <button class="btn btn-success btn-outline-dark text-light">Book Now</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/secound p.jpg" class="d-block w-100" alt="..." style="height: 100vh;">
+          <div class="carousel-caption  d-md-block w-50 m-auto bg-dark bg-opacity-75 rounded-3" >
+            <h5>Explore the Paradise of the Maldives 🌴✨</h5>
+            <p>Discover the breathtaking beauty of the Maldives, a tropical paradise with crystal-clear waters, stunning overwater villas, and mesmerizing sunsets. </p>
+            <button class="btn btn-success btn-outline-dark text-light">Book Now</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/third p.jpg" class="d-block w-100 " alt="..." style="height: 100vh;">
+          <div class="carousel-caption  d-md-block w-50 m-auto bg-dark bg-opacity-75 rounded-3" >
+            <h5>Explore the Paradise of the Maldives 🌴✨</h5>
+            <p>Discover the breathtaking beauty of the Maldives, a tropical paradise with crystal-clear waters, stunning overwater villas, and mesmerizing sunsets. </p>
+            <button class="btn btn-success btn-outline-dark text-light">Book Now</button>
+          </div>
+        </div>
+          <div class="carousel-item   "data-bs-interval="3000">
+            <img src="images/photo 4.avif" class="d-block w-100 " alt="" style="height: 100vh;">
+            <div class="carousel-caption  d-md-block w-50 m-auto  bg-dark bg-opacity-75 rounded-3" >
+              <h5>Explore the Paradise of the Maldives 🌴✨</h5>
+              <p>Discover the breathtaking beauty of the Maldives, a tropical paradise with crystal-clear waters, stunning overwater villas, and mesmerizing sunsets. </p>
+              <button class="btn btn-success btn-outline-dark text-light">Book Now</button>
+            </div>
+          </div>
+          <div class="carousel-item   "data-bs-interval="3000">
+            <img src="images/four p.jpg" class="d-block w-100 " alt="" style="height: 100vh;">
+            <div class="carousel-caption  d-md-block w-50 m-auto  bg-dark bg-opacity-75 rounded-3" >
+              <h5>Explore the Paradise of the Maldives 🌴✨</h5>
+              <p>Discover the breathtaking beauty of the Maldives, a tropical paradise with crystal-clear waters, stunning overwater villas, and mesmerizing sunsets. </p>
+              <button class="btn btn-success btn-outline-dark text-light">Book Now</button>
+            </div>
+          </div>
+          <div class="carousel-item   "data-bs-interval="3000">
+            <img src="images/five p.jpg" class="d-block w-100 " alt="" style="height: 100vh;">
+            <div class="carousel-caption  d-md-block w-50 m-auto  bg-dark bg-opacity-75 rounded-3" >
+              <h5>Explore the Paradise of the Maldives 🌴✨</h5>
+              <p>Discover the breathtaking beauty of the Maldives, a tropical paradise with crystal-clear waters, stunning overwater villas, and mesmerizing sunsets. </p>
+              <button class="btn btn-success btn-outline-dark text-light">Book Now</button>
+            </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- //////////////////////////////////////////////////photo div////////////////////////////////////////////////////////// -->
+     <div class="bg-dark container-fluid p-3 text-center rounded-bottom-4 ">
+      <h4 class="fs-3 text-light "> Welcome to Maldives Paradise!</h1>
+        <p class="text-success">
+          Escape to the Maldives, where turquoise waters, stunning beaches, and luxurious resorts await you! 
+           Wake up to breathtaking sunrises
+           Dive into a vibrant underwater world
+           Enjoy the finest island hospitality
+           Your dream vacation starts here!
+        </p>
+        <button class="btn btn-light btn-outline-success ">Read more</button>
+     </div>
+     <hr class="text-success ">
+<!-- ///////////////////////////////////////////////////   2div   ////////////////////////////////////////////////////////////////////// -->
+     <div class=" m-auto bg-dark rounded-4 container-sm">
+      <p class=" text-center text-light fs-3 p-4">popular destination in Maldives</p>
+     </div>
+     <div class="accordion " id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button  bg-success text-decoration-none p-3 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Malé City
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+          <div class="accordion-body  text-center bg-dark text-light">
+            <img src="images/male city.jpg" alt="" class="w-25 h-25 m-auto d-block" >
+        The vibrant capital with rich culture, markets, and historical sites.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-success text-decoration-none p-3 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Maafushi Island
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-center bg-dark text-light">
+            <img src="images/mafishi.avif" alt="" class="w-25 h-25 m-auto d-block" >
+            A budget-friendly island with beautiful beaches and water activities.          
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-success text-decoration-none p-3 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Biyadhoo Island
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-center bg-dark text-light">
+            <img src="images/biyadhoo.avif" alt="" class="w-25 h-25 m-auto d-block" >
+            Famous for its snorkeling and diving spots.          
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-success text-decoration-none p-3 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+            Hulhumalé
+          </button>
+        </h2>
+        <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-center bg-dark text-light">
+            <img src="images/Hulhumalé.avif" alt="" class="w-25 h-25 m-auto d-block" >
+         A modern island with artificial beaches and affordable resorts.    
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="text-success ">
+<!-- ////////////////////////////////////////////////////////      3div        ///////////////////////////////////////////////////////////////////////// -->
+<div class=" m-auto bg-dark rounded-top-4 container-fluid text-center text-light fs-3 p-4 mt-2">Translate from Dhivehi to English</div>
+<div class="container-fluid bg-success text-light rounded-bottom-4 p-2 text-center">
+<p class="h4">Write And Translate </p>
+<div class="input-group my-3  h-25">
+  <span class="input-group-text bg-danger text-light "> translate</span>
+  <textarea class="form-control bg-dark text-light h-100" aria-label="With textarea"></textarea>
+</div>
+<button id="copyButton" type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  Copy
+</button>
+<button id="copyButton" type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+  Translate
+</button>
+</div>
+<div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-success text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Alert</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Text copied successfully
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+        <button type="button" class="btn btn-dark">Okay</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-success text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Alert</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Your Text Will Be Translate
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+        <button type="button" class="btn btn-dark">Okay</button>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="text-success ">
+<div class=" m-auto bg-dark rounded-top-4 container-fluid text-center text-light fs-3 p-4 mt-2">Translate from Dhivehi to Frensh</div>
+<div class="container-fluid bg-success text-light rounded-bottom-4 p-2 text-center">
+<p class="h4">Write And Translate </p>
+<div class="input-group my-3  h-25">
+  <span class="input-group-text bg-danger text-light "> translate</span>
+  <textarea class="form-control bg-dark text-light h-100" aria-label="With textarea"></textarea>
+</div>
+<button id="copyButton" type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  Copy
+</button>
+<button id="copyButton" type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+  Translate
+</button>
+</div>
+<div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-success text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Alert</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Text copied successfully
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+        <button type="button" class="btn btn-dark">Okay</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-success text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Alert</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Your Text Will Be Translate
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+        <button type="button" class="btn btn-dark">Okay</button>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="text-success ">
+<div class=" m-auto bg-dark rounded-top-4 container-fluid text-center text-light fs-3 p-4 mt-2">Translate from Dhivehi to German</div>
+<div class="container-fluid bg-success text-light  p-2 text-center">
+<p class="h4">Write And Translate </p>
+<div class="input-group my-3  h-25">
+  <span class="input-group-text bg-danger text-light "> translate</span>
+  <textarea class="form-control bg-dark text-light h-100" aria-label="With textarea"></textarea>
+</div>
+<button id="copyButton" type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  Copy
+</button>
+<button id="copyButton" type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+  Translate
+</button>
+</div>
+<div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-success text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Alert</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Text copied successfully
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+        <button type="button" class="btn btn-dark">Okay</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-success text-light">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Alert</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Your Text Will Be Translate
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+        <button type="button" class="btn btn-dark">Okay</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //////////////////////////////////////////////////////////////   4div   /////////////////////////////////////////////////////////////////////// -->
+<div class=" image  container-fluid">
+</div>
+<!-- //////////////////////////////////////////////////////////////   5div   /////////////////////////////////////////////////////////////////////// -->
+<div class=" m-auto bg-dark rounded-bottom-4 container-fluid">
+  <p class=" text-center text-light fs-3 p-4">popular destination in Maldives</p>
+ </div>
+<div class="p-5 text-center">
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card card1 h-100">
+      <img src="images/p1.jpg" class="card-img-top h-75" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Malé City</h5>
+        <p class="card-text">The bustling capital of the Maldives, known for its vibrant local markets, historic mosques, and the National Museum.</p>
+        <button class="btn btn-success ">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card1  h-100">
+      <img src="images/p2.jpg " class="card-img-top h-75" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Maafushi Island</h5>
+        <p class="card-text">A budget-friendly island offering exciting activities such as snorkeling, diving, and dolphin watching.</p>
+        <button class="btn btn-success ">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card1 h-100">
+      <img src="images/p3.jpg" class="card-img-top h-75" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Vaadhoo Island (Sea of Stars)</h5>
+        <p class="card-text">Famous for its bioluminescent beach, where glowing plankton light up the shoreline at night.</p>
+        <button class="btn btn-success ">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card1 h-100">
+      <img src="images/p4.jpg" class="card-img-top h-75" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Baa Atoll (Hanifaru Bay)</h5>
+        <p class="card-text"> A UNESCO Biosphere Reserve, home to majestic manta rays and whale sharks during the season.</p>
+        <button class="btn btn-success ">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card1 h-100">
+      <img src="images/p6.jpg" class="card-img-top h-75" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Addu Atoll</h5>
+        <p class="card-text">A hidden gem with untouched beauty, known for its lush landscapes, cycling paths, and WWII relics.</p>
+        <button class="btn btn-success ">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card1 h-100">
+      <img src="images/p7.avif" class="card-img-top h-75" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Fulhadhoo Island</h5>
+        <p class="card-text">A paradise with crystal-clear waters and secluded beaches, perfect for relaxation and privacy.</p>
+        <button class="btn btn-success ">Book Now</button>
+      </div>
+    </div>
+  </div>     
+</div>
+<div class=" d-flex justify-content-around row row-cols-1 row-cols-md-3 g-4 m-1">  
+  <div class="col">
+    <div class="card card1 h-100">
+      <img src="images/p8.jpg" class="card-img-top h-75" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Banana Reef</h5>
+        <p class="card-text">One of the most popular diving sites in the Maldives, featuring colorful coral formations and rich</p>
+        <button class="btn btn-success ">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="col ">
+    <div class="card card1 h-100">
+      <img src="images/p9.jpg" class="card-img-top h-75" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hulhumalé Island</h5>
+        <p class="card-text">A man-made island near Malé, ideal for beach lovers, water sports enthusiasts, and scenic sunset views.</p>
+        <button class="btn btn-success ">Book Now</button>
+      </div>
+    </div>
+  </div>
+       </div>   
+</div>
+<!-- //////////////////////////////////////////////////////////////   6div   /////////////////////////////////////////////////////////////////////// -->
+<div class=" image image2  container-fluid rounded-bottom-4">
+</div>
+<div class=" m-auto bg-dark rounded-top-4 container-fluid text-center text-light fs-3 p-4 mt-2">Thanks For</div>
+<section class="container-fluid rounded-bottom-4 bg-success">
+  <div class="container">
+  <div class="row g-4 justify-content-center  py-5">
+      <div class="col-md-4 col-sm-6 col-12">
+          <div class="card-1">
+              <div class="card-1-imge"></div>
+              <div class="overlay">
+                <div class="content ">
+                <div class="one w-100 ">
+                <div class="h3 text-light p-4"><p>All thanks and appreciation.</p><span class="fs-6"><i class="fa-regular fa-clock"></i> October 15.2020</span></div>
+                </div>
+                <div class="tow w-100  mx-5">
+                  <img src="images/employee 1.jpg" alt=""  >
+                  <p class="text-light">ENG.Mariam Mohamed <br>
+                    Director of UI/UX</p>
+                </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-12">
+          <div class="card-1">
+              <div class="card-2-imge"></div>
+              <div class="overlay">
+                <div class="content ">
+                  <div class="one w-100 ">
+                  <div class="h3 text-light p-4"><p>All thanks and appreciation.</p><span class="fs-6"><i class="fa-regular fa-clock"></i> October 15.2020</span></div>
+                  </div>
+                  <div class="tow w-100  mx-5">
+                    <img src="images/employee 2.jpg" alt=""  >
+                    <p class="text-light">ENG.Ahmed Mohamed <br>
+                      Director of UI/UX</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-12">
+          <div class="card-1">
+              <div class="card-3-imge"></div>
+              <div class="overlay"><div class="content ">
+                <div class="one w-100 ">
+                <div class="h3 text-light p-4"><p>All thanks and appreciation.</p><span class="fs-6"><i class="fa-regular fa-clock"></i> October 15.2020</span></div>
+                </div>
+                <div class="tow w-100  mx-5">
+                  <img src="images/pepole1.jpg" alt=""  >
+                  <p class="names text-light">ENG.Ahmed Shreif <br>
+                    Director of UI/UX</p>
+                </div>
+              </div></div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+<hr class="text-success ">
+<!-- //////////////////////////////////////////////////////////////   7div   /////////////////////////////////////////////////////////////////////// -->
+<div class="m-auto bg-dark rounded-top-4 container-fluid text-center text-light fs-3 p-4 mt-2">
+  Maldives News
+</div>
+<section class="container-fluid p-5 bgs">
+  <div class="row podcast-card  mx-auto align-items-center">
+    <div class="col-lg-6 col-12 p-5 content ">
+      <h2 class="py-2 text-success  "><strong class="text-center">Podcast Title</strong></h2>
+      <p class="text-muted title"><i class="fa-regular fa-calendar-days"></i> Mon, May 25th 2020</p>
+      <p class="pb-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia neque fugit delectus dignissimos quidem nesciunt natus, libero perferendis sunt, ipsa iure culpa nisi, totam eius voluptas minima placeat dolorum eum?
+      </p>
+      <div class="buttons mt-5">
+        <button class="btn btn-success"><i class="fa-solid fa-podcast"></i> Podcast</button>
+        <button class="btn btn-success btn-center"><i class="fa-regular fa-clock"></i> 55 mins</button>
+        <button class="btn btn-success text-dark"><i class="fa-solid fa-play"></i> Play Episode</button>
+      </div>
+    </div>
+    <div class="col-lg-6 col-12 image-container ">
+      <img src="images/background.jpg" alt="" class="img-fluid  " style="height: 70vh; " >
+    </div>
+  </div>
+</section>
+<section class="container-fluid p-5">
+  <div class="row podcast-card podcast-card2 mx-auto align-items-center">
+<div class="col-lg-6 col-12 image-container-2 ">
+      <img src="images/background.jpg" alt="" class="img-fluid  " style="height: 70vh; " >
+    </div>
+    <div class="col-lg-6 col-12 p-5 content ">
+      <h2 class="py-2 text-success"><strong>Podcast Title</strong></h2>
+      <p class="text-muted title"><i class="fa-regular fa-calendar-days"></i> Mon, May 25th 2020</p>
+      <p class="pb-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia neque fugit delectus dignissimos quidem nesciunt natus, libero perferendis sunt, ipsa iure culpa nisi, totam eius voluptas minima placeat dolorum eum?
+      </p>
+      <div class="buttons mt-5">
+        <button class="btn btn-success"><i class="fa-solid fa-podcast"></i> Podcast</button>
+        <button class="btn btn-success btn-center"><i class="fa-regular fa-clock"></i> 55 mins</button>
+        <button class="btn btn-success text-dark"><i class="fa-solid fa-play"></i> Play Episode</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-fluid p-5">
+  <div class="row podcast-card  mx-auto align-items-center">
+    <div class="col-lg-6 col-12 p-5 content ">
+      <h2 class="py-2 text-success"><strong>Podcast Title</strong></h2>
+      <p class="text-muted title"><i class="fa-regular fa-calendar-days"></i> Mon, May 25th 2020</p>
+      <p class="pb-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia neque fugit delectus dignissimos quidem nesciunt natus, libero perferendis sunt, ipsa iure culpa nisi, totam eius voluptas minima placeat dolorum eum?
+      </p>
+      <div class="buttons mt-5">
+        <button class="btn btn-success"><i class="fa-solid fa-podcast"></i> Podcast</button>
+        <button class="btn btn-success btn-center"><i class="fa-regular fa-clock"></i> 55 mins</button>
+        <button class="btn btn-success text-dark"><i class="fa-solid fa-play"></i> Play Episode</button>
+      </div>
+    </div>
+    <div class="col-lg-6 col-12 image-container ">
+      <img src="images/background.jpg" alt="" class="img-fluid  " style="height: 70vh; " >
+    </div>
+  </div>
+</section>
+<section class="container-fluid p-5">
+  <div class="row podcast-card podcast-card2 mx-auto align-items-center">
+<div class="col-lg-6 col-12 image-container-2 ">
+      <img src="images/background.jpg" alt="" class="img-fluid  " style="height: 70vh; " >
+    </div>
+    <div class="col-lg-6 col-12 p-5 content ">
+      <h2 class="py-2 text-success"><strong>Podcast Title</strong></h2>
+      <p class="text-muted title"><i class="fa-regular fa-calendar-days"></i> Mon, May 25th 2020</p>
+      <p class="pb-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia neque fugit delectus dignissimos quidem nesciunt natus, libero perferendis sunt, ipsa iure culpa nisi, totam eius voluptas minima placeat dolorum eum?
+      </p>
+      <div class="buttons mt-5">
+        <button class="btn btn-success"><i class="fa-solid fa-podcast"></i> Podcast</button>
+        <button class="btn btn-success btn-center"><i class="fa-regular fa-clock"></i> 55 mins</button>
+        <button class="btn btn-success text-dark"><i class="fa-solid fa-play"></i> Play Episode</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //////////////////////////////////////////////////////////////   8div   /////////////////////////////////////////////////////////////////////// -->
+<div class="m-auto bg-dark rounded-top-4 container-fluid text-center text-light fs-3 p-4 mt-2">
+Join us
+</div>
+<section class="container-fluid p-5 bg-success ">
+  <div class="row justify-content-center text-center g-3 text-success">
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="icon bg-dark">
+        <h3 class="text-white">Subscribe Now</h3>
+        <a href="#" class="social-icon my-3" style="--color:#0072b1">
+          <i class="fa-brands fa-linkedin-in fs-1"></i>
+        </a>
+        <p class="h5 link">Go to link</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="icon bg-dark">
+        <h3 class="text-white">Subscribe Now</h3>
+        <a href="#" class="social-icon my-3" style="--color:#E1306c">
+          <i class="fa-brands fa-instagram fs-1"></i>
+        </a>
+        <p class="h5 link">Go to link</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="icon bg-dark">
+        <h3 class="text-white">Subscribe Now</h3>
+        <a href="#" class="social-icon my-3" style="--color:#ff0050">
+          <i class="fa-brands fa-tiktok fs-1"></i>
+        </a>
+        <p class="h5 link">Go to link</p>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="icon bg-dark">
+        <h3 class="text-white">Subscribe Now</h3>
+        <a href="#" class="social-icon my-3" style="--color:#4267b2">
+          <i class="fa-brands fa-facebook-f fs-1"></i>
+        </a>
+        <p class="h5  link">Go to link</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //////////////////////////////////////////////////////////////   9div   /////////////////////////////////////////////////////////////////////// -->
+<footer class="bg-dark container-fluid"  >
+  <div class="container-fluid">
+<div class="row justify-content-around text-center g-3 text-success">
+  <div class=" col-lg-3 col-md-6 col-sm-12 ">
+    <hr class="text-white ">
+    <img src="images/flag.png" alt="" class="img-fluid rounded-circle  p-1" style="width: 80px; height: 80px; ">
+    <p class="d-inline h5 ">Good Company</p>
+    <hr class="text-white ">
+    <p class=" h6  m-3">Tel:0000-0000-0000</p>
+    <p class=" h6  m-3">Adress: Egypt</p>
+    <p class=" h6  m-3">Fax: 0000-0000-0000</p>
+  </div>
+  <div class=" col-lg-3 col-md-6 col-sm-12">
+    <hr class="text-white ">
+    <img src="images/flag.png" alt="" class="img-fluid rounded-circle  p-1" style="width: 80px; height: 80px; ">
+    <p class="d-inline h5 ">Important links</p>
+    <hr class="text-white ">
+    <a class="link2 h6 d-block m-3 text-white text-decoration-none ">Visit Us</a>
+    <a class="link2 h6 d-block m-3 text-white text-decoration-none">Take alook</a>
+    <a class="link2 h6 d-block m-3 text-white text-decoration-none">Your Health Is More Important</a>
+  </div>
+  <div class=" col-lg-3 col-md-6 col-sm-12">
+    <hr class="text-white ">
+    <img src="images/flag.png" alt="" class="img-fluid rounded-circle  p-1" style="width: 80px; height: 80px; ">
+    <p class="d-inline h5 ">vision</p>
+    <hr class="text-white ">
+    <p class=" h6  m-3">Serveices For All</p>
+    <p class=" h6  m-3">Provide Best Serveices</p>
+    <p class=" h6  m-3">You Will Be Better Than Before</p>
+  </div>
+  <hr class="text-white ">
+  <h5 class="text-white">Copyright &copy 2025 Ahmed Shreif,All Rights</h5>
+</div>
+</div>
+</footer>
+<!-- //////////////////////////////////////////////////////////////   10div and TheEnd   /////////////////////////////////////////////////////////////////////// -->
+
+    <script src="js/jquery-3.7.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/popper.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
